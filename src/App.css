@@ -1,0 +1,63 @@
+.App {
+  text-align: left;
+  padding: 15px;
+  background-color: rgb(255, 255, 255); /* Change the background color */
+}
+
+.color-picker {
+  display: inline-block;
+  text-align: center;
+  margin-top: 10px; /* Add margin to the color picker */
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #c3b5f7; /* Change the button background color */
+  color: #ffffff;
+  cursor: pointer;
+  border-radius: 3px; /* Reduce border-radius */
+}
+
+.color-list {
+  padding: 5;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 15px; /* Add margin to the color list */
+}
+
+.color-item {
+  width: 40px;
+  height: 40px;
+  margin: 20px; /* Increase margin */
+  border: 2px solid transparent; /* Add border */
+}
+
+.color-item:hover {
+  border: 2px solid #fa0e0e; /* Change the border color on hover */
+}
+
+p {
+  margin-top: 15px;
+  font-weight: bold;
+  font-size: 15px; /* Increase font size */
+}
+
+.background {
+  width: 150%;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+/* Reset button style */
+.reset-button {
+  margin-top: 10px;
+  padding: 10px 20px;
+  background-color: #c3b5f7; /* Change the background color */
+  color: #ffffff;
+  border-radius: 5px; /* Reduce border-radius */
+  font-weight: bold; /* Make text bold */
+}
